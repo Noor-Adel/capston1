@@ -24,12 +24,17 @@ export const LinkData = [
     title: "blog",
     url: "/blog",
   },
+  {
+    id: 6,
+    title: "Login",
+    url: "/Login",
+  },
 ]
 export const courses = [
   {
     id: 1,
     cover: "../images/course-2-1.jpg",
-    title: "The Power of Podcast for Storytelling",
+    title: "نادي وسام المجد ",
   },
   {
     id: 2,
@@ -48,12 +53,12 @@ export const courses = [
   },
   {
     id: 5,
-    cover: "../images/course11.jpg",
+    cover: "../images/course-8-1.jpg",
     title: "Product Manager Learn the Skills & job.",
   },
   {
     id: 6,
-    cover: "../images/course12.jpg",
+    cover: "../images/course-7-1.jpg",
     title: "The business Intelligence analyst Course 2022",
   },
 ]
