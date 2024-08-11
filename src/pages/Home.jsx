@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import heroImg from "../components/assets/images/image.png";
-import heroImgback from "../components/assets/images/hero-shape-purple.png"
+import heroImgback from "../components/assets/images/hero-shape-purple.png";
 import { FiSearch } from "react-icons/fi";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { FaBookReader, FaGraduationCap, FaUsers } from "react-icons/fa";
@@ -22,7 +22,7 @@ export const Home = () => {
       <Courses />
       <Instructor />
       <Blog />
-      <Login />
+      
     </>
   );
 };
@@ -53,19 +53,20 @@ export const HomeContent = () => {
   };
 
   return (
-    <section className="bg-secondary  py-10 h-[92vh] md:h-full ">
-      <div className="container">
+    <section className="  py-10 h-[92vh]  bg-gradient-to-r from-sky-100 to-indigo-400  ">
+
+      <div className="container  ">
         <div className="flex items-center justify-center md:flex-col">
-          <div className="left w-1/2 text-black md:w-full">
-            <h1 className="text-4xl leading-tight text-black font-semibold ">
+          <div className="left w-1/2 text-blue-700 md:w-full ">
+            <h1 className="text-4xl leading-tight text-blue-900 font-semibold ">
               summer course <br /> Platform
             </h1>
-            <h3 className="text-lg mt-2">Welcome to the complete guide to entertainment tips for kids</h3>
+            <h3 className="text-lg mt-2 font-semibold">Welcome to the complete guide to entertainment tips for kids</h3>
             <span className="text-[12px]">
               Don't miss the opportunity to discover the best institutes for your children this summer!
             </span>
 
-            <div className="relative text-gray-600 focus-within:text-gray-400 mt-5">
+            <div className="relative text-blue-700 focus-within:text-gray-400 mt-5">
               <input
                 type="search"
                 className="py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none "
@@ -92,7 +93,7 @@ export const HomeContent = () => {
 
             </div>
            
-            <span className="text-[14px]">You`re guaranteed to find something that`s right for you.</span>
+            <span className="text-[14px]">You`re guaranteed to find something thats right for you.</span>
           </div>
           <div className=" left-20  w-1/2 c md:w-full relative " >
             <div className="images relative drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]   ">

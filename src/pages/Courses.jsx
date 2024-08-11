@@ -11,7 +11,7 @@ export const Courses = () => {
       <section className='courses bg-[#F3F4F8] py-16 '>
         <div className='w-4/5 m-auto'>
           <div className='heading mb-16'>
-            <h1 className='text-3xl font-semibold text-black'>
+            <h1 className='text-3xl font-semibold text-blue-900'>
               Find The Right <br />
               Online Course For You
             </h1>
@@ -30,21 +30,21 @@ export const Courses = () => {
                   <div className='flex justify-between items-center'>
                     <div className='flex items-center'>
                       <FaBook />
-                      <span className='text-[14px] ml-2'> 10 lessons</span>
+                      <span className='text-[14px] ml-2'> 6 lessons</span>
                     </div>
                     <div className='flex items-center'>
                       <AiFillStar className='text-orange-500' />
                       <span className='text-[14px] ml-2'> 4.50(2)</span>
                     </div>
                   </div>
-                  <h3 className='text-black my-4 md:font-bold font-medium h-10'>{item.title}</h3>
+                  <h3 className='text-blue-900 my-4 md:font-bold font-medium h-10'>{item.title}</h3>
                   <div className='user flex items-center'>
                     {/* <img className='rounded-full' src='https://secure.gravatar.com/avatar/75ec18a5bf959aab895830be3a78cb34?s=50&d=mm&r=g' alt='' /> */}
-                    <span className='text-[14px] ml-2'> sunil</span>
+                    <span className='text-[14px] ml-2'> </span>
                   </div>
                 </div>
                 <div to='/' className='flex items-center justify-between border-t border-gray-200 p-3'>
-                  <span className='text-sm text-primary'>Free</span>
+                  <span className='text-sm text-primary'>100$</span>
                   <NavLink className='text-[14px] ml-2 flex items-center'>
                     Know Details <HiOutlineArrowNarrowRight />
                   </NavLink>

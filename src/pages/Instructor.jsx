@@ -1,6 +1,8 @@
 import React from "react"
 import { FaGraduationCap, FaUsers } from "react-icons/fa"
 import { GiEvilBook, GiWorld } from "react-icons/gi"
+import InstructorImg from "../components/assets/images/Instructor1.png"
+import Instructor2Img from "../components/assets/images/Instructor2.jpg"
 
 export const Instructor = () => {
   return (
@@ -8,19 +10,19 @@ export const Instructor = () => {
       <section className='instructor mb-16'>
         <div className='container'>
           <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>عنوان </h1>
-            <span className='text-[14px] mt-2 block'>نكتب وصف</span>
+            <h1 className='text-3xl font-semibold text-black'>our services </h1>
+            {/* <span className='text-[14px] mt-2 block'> You don't have to struggle alone, you've got our assistance and help </span> */}
           </div>
           <div className='content grid grid-cols-2 gap-5 md:grid-cols-1'>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
-              <img src='https://bdevs.net/wp/educal/wp-content/uploads/2021/09/what-1.jpg' alt='' className='rounded-t-lg object-cover w-full h-72' />
+              <img  src={InstructorImg} alt='InstructorImg' className='rounded-t-lg object-cover w-full h-72' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
-                <h2 className='text-3xl text-white font-semibold'> Learning</h2>
+                <h2 className='text-3xl text-white font-semibold'> Trainees</h2>
                 <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>
               </div>
             </div>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
-              <img src='https://bdevs.net/wp/educal/wp-content/uploads/2021/09/what-2.jpg' alt='' className='rounded-t-lg object-cover w-full h-72 relative' />
+              <img src={Instructor2Img} alt='InstructorImg' className='rounded-t-lg object-cover w-full h-72 relative' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
                 <h2 className='text-3xl text-white font-semibold'>Become an Instructor</h2>
                 <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>

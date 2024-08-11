@@ -10,7 +10,7 @@ export const About = () => {
       <section className='about py-6'>
         <div className='container'>
           <div className='heading text-center py-5'>
-            <h1 className='text-3xl font-semibold text-black'>About us </h1>
+            <h1 className='text-3xl font-semibold text-blue-900'>About us </h1>
           </div>
          
         </div>
@@ -41,21 +41,21 @@ export const AboutContent = () => {
         </div>
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
-            <h1 className='text-2xl font-semibold text-black'>Don't miss the opportunity to discover the best institutes for your children this summer!</h1>
-            <span className='text-sm mt-2 block leading-6'> a comprehensive website that allows you to discover the best entertainment and educational institutes for children. We provide detailed information on various summer courses, from arts and creativity to science and sports.
+            <h1 className='text-2xl font-semibold text-blue-700'>Don't miss the opportunity to discover the best institutes for your children this summer!</h1>
+            <span className='text-sm mt-2 block leading-6 text-blue-900' > a comprehensive website that allows you to discover the best entertainment and educational institutes for children. We provide detailed information on various summer courses, from arts and creativity to science and sports.
 
 Comprehensive collection: All information about institutes in one place.
 - Real reviews: reviews and experiences from other parents. - </span>
             <ul className='my-5'>
-              <li className='text-sm flex items-center gap-5'>
+              <li className='text-sm flex items-center gap-5 text-blue-700'>
                 <AiOutlineCheck className='text-green-500' /> Easy to search .
                 
               </li>
-              <li className='text-sm flex items-center gap-5 my-2'>
+              <li className='text-sm flex items-center gap-5 my-2 text-blue-700'>
                 <AiOutlineCheck className='text-green-500' />
                 Real Reviews
               </li>
-              <li className='text-sm flex items-center gap-5'>
+              <li className='text-sm flex items-center gap-5 text-blue-700'>
                 <AiOutlineCheck className='text-green-500' />
                 real opinions
               </li>

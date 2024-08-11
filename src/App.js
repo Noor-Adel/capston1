@@ -1,14 +1,13 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Layout } from "./components/common/Layout"
-import { Home } from "./pages/Home"
-import { BlogSinglePage } from "./components/common/BlogSinglePage"
-import { About } from "./pages/About"
-import { Courses } from "./pages/Courses"
-import { Blog } from "./pages/Blog"
-import { Instructor } from "./pages/Instructor"
-import { Header } from "./components/common/Header"
-import Login from "./pages/login"
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Layout } from "./components/common/Layout";
+import { Home } from "./pages/Home";
+import { BlogSinglePage } from "./components/common/BlogSinglePage";
+import { About } from "./pages/About";
+import { Courses } from "./pages/Courses";
+import { Blog } from "./pages/Blog";
+import { Instructor } from "./pages/Instructor";
+import CourseDetails from "./pages/CourseDetails";  
+import Login from "./pages/login";
 
 function App() {
   return (
@@ -40,6 +39,14 @@ function App() {
             }
           />
           <Route
+            path='/course/:id'
+            element={
+              <Layout>
+                <CourseDetails /> 
+              </Layout>
+            }
+          />
+          <Route
             path='/instructor'
             element={
               <Layout>
@@ -63,19 +70,15 @@ function App() {
               </Layout>
             }
           />
-           <Route
+          <Route
             path='/Login'
-            element={
-            
-                <Login />
-               
-            }
+            element={<Login />}
           />
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
 
